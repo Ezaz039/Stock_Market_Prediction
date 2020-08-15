@@ -18,11 +18,11 @@
 - Training any machine learning algorithm is a lots of time consuming process:angry:. So we have scheduled model training in the background in our website i.e. both website and model training will be running parallally:slightly_frowning_face: so that model traing wouldn’t wait for any request:relieved:. It will automatically update the trained model after a fixed interval:relieved:.
 
 ### Pseudocode:
-* app = Flask(__name__)
-* scheduler = APScheduler()
-* scheduler.init_app(app)
-* scheduler.start()
-* app.apscheduler.add_job(func=scheduled_task,trigger='interval',weeks=1,args=[100],id="background_process”)
+- app = Flask(__name__)
+- scheduler = APScheduler()
+- scheduler.init_app(app)
+- scheduler.start()
+- app.apscheduler.add_job(func=scheduled_task,trigger='interval',weeks=1,args=[100],id="background_process”)
 
 ## Sentimental Analysis:
 ‘Stock exchange’ is a subject that is highly affected by economic:nauseated_face:, social, and political factors. There are several factors e.g. external factors or internal factors which can affect and move the stock market. Stock prices rise and fall every second due to variations in supply and demand:grimacing:. Various Data mining techniques are frequently involved to solve this problem. But technique using machine learning will give more accurate, precise and simple way to solve such issues related to stock and market prices:relieved:.
