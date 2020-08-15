@@ -3,7 +3,7 @@
 
 ## Solution:
 1. Every ‘NSE’ company provides it’s historical stock data:innocent:.
-2. For any interval (i.e. 1m, 5m, 15m, 30m, 60m, 1d, 1w, 1mo, YTD etc) historical data can be extracted using ‘Yahoo Finance Api’:upside_down_face:.
+2. For any interval (i.e. 1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d, 1w, 1mo, 3mo, YTD etc) historical data can be extracted using ‘Yahoo Finance Api’:upside_down_face:.
 3. ‘LSTM (Long Short Term Memory)’ neural network model can predict future stock price based on historical data for any company.
 4. Social influencing can also affect stock market (i.e. relevant news article can increase stock value for a company or vice-versa)[4].
 5. This methodology:neutral_face: can be used to build a stock market website which will show historical stock data as well as future stock for any ‘NSE’ company.
