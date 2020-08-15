@@ -28,3 +28,9 @@
 ‘Stock exchange’ is a subject that is highly affected by economic:nauseated_face:, social, and political factors. There are several factors e.g. external factors or internal factors which can affect and move the stock market. Stock prices rise and fall every second due to variations in supply and demand:grimacing:. Various Data mining techniques are frequently involved to solve this problem. But technique using machine learning will give more accurate, precise and simple way to solve such issues related to stock and market prices:relieved:.
 
 ## Some overview of my stock market prediction website:
+![GitHub Logo](/images/home.png)
+![GitHub Logo](/images/company_list.png)
+![GitHub Logo](/images/live_stock.png)
+
+## Usage:
+Stock Market Website is currently deployed in Heroku. The website can be accessed through https://stockvalueprediction.herokuapp.com/
